@@ -9,7 +9,7 @@
 
 # Dodatkowo przy okazji tych zadań proponuję poexperymentować np z używaniem innych typów
 # do przechowywanie odczytanych danych( np słownik)
-from typing import Any, Tuple
+
 
 
 def weather(city, temperature, cloud_cover, wind_speed):
