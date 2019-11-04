@@ -11,7 +11,6 @@
 # do przechowywanie odczytanych danych( np słownik)
 
 
-
 def weather(city, temperature, cloud_cover, wind_speed):
     print(f"Today in {city} is {temperature} degrees!\n"
           f"It's {cloud_cover}, the wind is blowing at speed {wind_speed}km/h.")
