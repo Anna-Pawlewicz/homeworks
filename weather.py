@@ -23,9 +23,7 @@ weather(*weather_data)               # (weather_data[0], weather_data[1], weathe
 
 def create_file(file_name, city, temperature, cloud_cover, wind_speed):
     with open(file_name, 'w') as f:
-        for element in weather_data:
-            f.write(str(element))
-            f.write(', ')
+        f.write(','.join([city, str(temperature), cloud_cover, str(wind_speed)])) # -> tworzymy listę ręcznie i zapisujemy ją za jednym razem sprawdzając czy wszystko to str
 
 
 create_file('weather.txt', *weather_data)
@@ -41,3 +39,4 @@ weather_data_return = read_file('weather.txt')
 print(weather_data_return)
 
 weather(*weather_data)
+
