@@ -1,9 +1,9 @@
-# Napiszmy funkcję weather, która wydrukuje informacje o pogodzie przekazane jako parametry,
+#Napiszmy funkcję weather, która wydrukuje informacje o pogodzie przekazane jako parametry,
 # np. \"Dziś w Gdańsku jest 12 stopni!\" \"Występuej duże zachmurzenie, wiatr wieje z prędkością 0\"
 # #- miasto, temparatura, zachmurzenie, prędkość wiatru jako parametry wejściowe funcji,
 # #wykorzystaj styl formatowania new lub f'string
 
-# Napiszmy funkcję, która utworzy plik o nazawie weather.txt i do pliku wpisze parametry z zadania pierwszego \n",
+#Napiszmy funkcję, która utworzy plik o nazawie weather.txt i do pliku wpisze parametry z zadania pierwszego \n",
 # " - Napiszmy funkcję, która odczyta plik weather.txt oraz zwróci listę zaiwerającą weather_data = ['miasto', 'temparatura', 'zachmurzenie', 'predkocs_wiatru'],\n",
 # " - Wywołujemy funkcję weather z elementami listy weather_data jako parametrami
 
@@ -18,7 +18,7 @@ def weather(city, temperature, cloud_cover, wind_speed):
 
 weather_data = ['Gdynia', 18.0, 'partly cloudy', 15]
 
-weather(*weather_data)               # (weather_data[0], weather_data[1], weather_data[2], weather_data[3])
+weather(*weather_data)          # (weather_data[0], weather_data[1], weather_data[2], weather_data[3])
 
 
 def create_file(file_name, city, temperature, cloud_cover, wind_speed):
