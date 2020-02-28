@@ -5,8 +5,6 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="" type="PLAIN_TEXT" />
-      <mapping ext="robot" type="Python" />
-      <removed_mapping ext="robot" type="Robot Feature" />
     </extensionMap>
   </component>
 </application>
